@@ -78,10 +78,12 @@ header{
 /* Menu right */
 .ps_card_menu-right li{
   margin: 0 5px;
+  font-size: 0.8rem;
 }
 
 .ps_card_menu-left li{
   margin-left: 5px;
+  font-size: 0.8rem;
 }
 
 /* ----------------------MAIN---------------------- */
