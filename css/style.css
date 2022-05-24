@@ -104,18 +104,19 @@ main{
 .ps_text_banner{
   position: absolute;
   bottom: 60px;
+  left: 20px;
   color: white;
-  width: 80%;
+  width: 95%;
   
 }
 
 /* Banner Img */
 .ps_rituals_banner .ps_text_banner img{
-  width: 80%;
+  max-width: 80%;
 }
 
 .ps_takestwo_banner .ps_text_banner img{
-  width: 50%;
+  max-width: 50%;
 }
 
 /* Banner Title */
@@ -158,15 +159,15 @@ main{
 
   /* Banner */
   .ps_rituals_banner .ps_text_banner img{
-    width: 45%;
+    max-width: 50%;
   }
 
   .ps_text_banner{
-    width: 30%;  
+    max-width: 30%;  
   }
 
   .ps_takestwo_banner .ps_text_banner img{
-    width: 45%;
+    max-width: 50%;
   }
 
  }
