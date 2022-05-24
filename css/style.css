@@ -1,7 +1,6 @@
 /* RESET */
 img{
   max-width: 100%;
-  display: block;
 }
 
 ul {
@@ -9,6 +8,28 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/* Button Reset */
+.btn{
+  border-radius: 1.2rem;
+  padding: 0.45rem 0.85rem;
+}
+
+/* General */
+body{
+  font-family: Arial, sans-serif;
+}
+
+.ps_lens_size{
+  width: 30px;
+  margin-left: 1.3rem;
+}
+
+.ps_chevorn_size{
+  width: 12px;
+  margin-right: 1.2rem;
+}
+
 /* Header */
 header{
   position: fixed;
@@ -16,6 +37,8 @@ header{
   right: 0;
   width: 100%;
   z-index: 51;
+  font-family: Helvetica, arial, sans-serif;
+  font-weight: 600;
 }
 
 /* Header Top */
@@ -26,6 +49,7 @@ header{
 }
 
 .ps_header_top img{
+  display: block;
   width: 100px;
   margin-left: auto;
   padding-top: 12px;
@@ -33,7 +57,24 @@ header{
 }
 
 /* Header Bottom */
-.ps_header_bottom{
-  text-align: right;
+/* Menu left */
+.ps_card_menu-left img{
+  width: 60px;
 }
-/* Color */
+.ps_card_menu-left{
+  padding: 0.6rem 0;
+}
+/* Menu right */
+.ps_card_menu-right li{
+  margin: 0 5px;
+}
+
+.ps_card_menu-left li{
+  margin-left: 5px;
+}
+
+/* Color e Btn Color */
+.ps_btn_darkgrey{
+  background-color: #363636;
+  color: white;
+}
