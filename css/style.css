@@ -158,6 +158,10 @@ main{
 }
 
 /* Buy The New Console */
+.ps_buy_new_console{
+  padding: 4rem 0 3rem;
+}
+
 .ps_buy_new_console_title{
   padding: 2rem 0 3rem;
 }
@@ -178,9 +182,6 @@ main{
 .ps_buy_new_console_title button{
   margin-top: 1.2rem;
 }
-.ps_buy_new_console{
-  padding: 4rem 0 3rem;
-}
 
 /* PS New Exit */
 .ps_new_exit{
@@ -189,6 +190,7 @@ main{
   background-color: #1f1f1f;
 }
 
+/* New Exit Img */
 .ps_new_exit img{
   border-radius: 18px;
 }
@@ -198,17 +200,15 @@ main{
   font-size: 1rem;
 }
 
+/* New Exit Titles */
 .ps_new_exit_title h2{
   font-size: 2.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .ps_new_exit_title p{
   font-size: 1.7rem;
 }
-
-
-
 
 /* Color e Btn Color */
 .ps_btn_darkgrey{
