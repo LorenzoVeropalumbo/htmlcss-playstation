@@ -31,6 +31,14 @@ body{
   margin-right: 1.2rem;
 }
 
+.ps_opacity_filter{
+  opacity: 0.5;
+}
+
+.ps_underline{
+  border-bottom: 2px solid #0072cd;
+}
+
 /* ----------------------HEADER---------------------- */
 header{
   position: fixed;
@@ -112,7 +120,7 @@ main{
 
 /* Banner Img */
 .ps_rituals_banner .ps_text_banner img{
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .ps_takestwo_banner .ps_text_banner img{
@@ -130,17 +138,47 @@ main{
   padding: 2rem 0;
 }
 
-/* Banner description */
-.ps_text_banner p{
-  font-size: 1rem;
-}
-
 /* Banner btn */
 .ps_text_banner .btn{
   font-size: 1.2rem;
   border-radius: 2rem;
   padding: 1rem 2rem;
   margin-top: 2.2rem;
+}
+
+/* PS Games Exclusives */
+.ps_gams_exclusive img{
+  border-radius: 18px;
+}
+
+.ps_game_selected{
+  border: 2px solid #0072cd;
+  padding: 0.2rem;
+}
+
+/* Buy The New Console */
+.ps_buy_new_console_title{
+  padding: 2rem 0 3rem;
+}
+.ps_buy_new_console_title h5{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #187fd2;
+  font-weight: 600;
+}
+.ps_buy_new_console_title h3{
+  font-size: 2.5rem;
+  padding-bottom: 1.8rem;
+}
+.ps_buy_new_console_title p{
+  font-size: 1.4rem;
+  color: #727272;
+}
+.ps_buy_new_console_title button{
+  margin-top: 1.2rem;
+}
+.ps_buy_new_console{
+  padding: 4rem 0 3rem;
 }
 
 /* Color e Btn Color */
@@ -154,6 +192,10 @@ main{
   color: white;
 }
 
+.btn-dark-blue{
+  background-color: #2c64e6;
+  color: white;
+}
 /* Media Queries */
 @media (min-width: 1200px){
 
