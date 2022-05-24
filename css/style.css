@@ -109,7 +109,7 @@ main{
   
 }
 
-/* Banner content */
+/* Banner Img */
 .ps_rituals_banner .ps_text_banner img{
   width: 80%;
 }
@@ -118,6 +118,7 @@ main{
   width: 50%;
 }
 
+/* Banner Title */
 .ps_rituals_banner .ps_text_banner h3{
   font-size: 3rem;
   padding: 2rem 0;
@@ -128,10 +129,12 @@ main{
   padding: 2rem 0;
 }
 
+/* Banner description */
 .ps_text_banner p{
   font-size: 1rem;
 }
 
+/* Banner btn */
 .ps_text_banner .btn{
   font-size: 1.2rem;
   border-radius: 2rem;
