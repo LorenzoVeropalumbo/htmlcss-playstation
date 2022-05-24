@@ -1,4 +1,4 @@
-/* RESET */
+/* ----------------------RESET---------------------- */
 img{
   max-width: 100%;
 }
@@ -15,7 +15,7 @@ ul {
   padding: 0.45rem 0.85rem;
 }
 
-/* General */
+/* ----------------------General---------------------- */
 body{
   font-family: Arial, sans-serif;
   overflow-x: hidden;
@@ -31,7 +31,7 @@ body{
   margin-right: 1.2rem;
 }
 
-/* Header */
+/* ----------------------HEADER---------------------- */
 header{
   position: fixed;
   top: 0;
@@ -42,7 +42,7 @@ header{
   font-weight: 600;
 }
 
-/* Header Top */
+/* HEADER TOP */
 .ps_header_top{
   height: 40px;
   background-color: black;
@@ -56,7 +56,7 @@ header{
   padding-right: 0.6rem;
 }
 
-/* Header Bottom */
+/* HEADER BOTTOM */
 .ps_header_bottom{
   background-color: white;
 }
@@ -76,21 +76,31 @@ header{
   margin-left: 5px;
 }
 
-/* Main */
+/* ----------------------MAIN---------------------- */
 main{
   padding-top: 119px;
 }
 
-/* BNanner */
-.ps_banner{
-  background-image: url("../img/jumbo-bg.png");
+/* BANNER */
+.ps_banner{ 
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* Banner Img */
+.ps_rituals_banner{
+  background-image: url("../img/jumbo-bg.png");
   height: 800px;
 }
 
+.ps_takestwo_banner{
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  height: 700px;
+}
+
+/* Banner Text */
 .ps_text_banner{
   position: absolute;
   bottom: 60px;
@@ -99,8 +109,34 @@ main{
   
 }
 
-.ps_text_banner img{
+/* Banner content */
+.ps_rituals_banner .ps_text_banner img{
   width: 80%;
+}
+
+.ps_takestwo_banner .ps_text_banner img{
+  width: 50%;
+}
+
+.ps_rituals_banner .ps_text_banner h3{
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.ps_takestwo_banner .ps_text_banner h3{
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+.ps_text_banner p{
+  font-size: 1rem;
+}
+
+.ps_text_banner .btn{
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin-top: 2.2rem;
 }
 
 /* Color e Btn Color */
@@ -108,3 +144,26 @@ main{
   background-color: #363636;
   color: white;
 }
+
+.ps_btn_red{
+  background-color: #cd3d10;
+  color: white;
+}
+
+/* Media Queries */
+@media (min-width: 1200px){
+
+  /* Banner */
+  .ps_rituals_banner .ps_text_banner img{
+    width: 45%;
+  }
+
+  .ps_text_banner{
+    width: 30%;  
+  }
+
+  .ps_takestwo_banner .ps_text_banner img{
+    width: 45%;
+  }
+
+ }
