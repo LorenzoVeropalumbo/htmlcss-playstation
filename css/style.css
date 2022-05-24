@@ -114,7 +114,6 @@ main{
 .ps_text_banner{
   position: absolute;
   bottom: 60px;
-  left: 20px;
   color: white;
   width: 95%;
   
@@ -182,6 +181,34 @@ main{
 .ps_buy_new_console{
   padding: 4rem 0 3rem;
 }
+
+/* PS New Exit */
+.ps_new_exit{
+  padding: 2rem 0.6rem;
+  color: white;
+  background-color: #1f1f1f;
+}
+
+.ps_new_exit img{
+  border-radius: 18px;
+}
+
+.ps_new_exit p{
+  padding-top: 0.6rem;
+  font-size: 1rem;
+}
+
+.ps_new_exit_title h2{
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.ps_new_exit_title p{
+  font-size: 1.7rem;
+}
+
+
+
 
 /* Color e Btn Color */
 .ps_btn_darkgrey{
