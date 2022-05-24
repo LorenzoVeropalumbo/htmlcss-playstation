@@ -1,5 +1,39 @@
 /* RESET */
 img{
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 51;
+}
+
+/* Header Top */
+.ps_header_top{
+  height: 40px;
+  background-color: black;
   width: 100%;
 }
 
+.ps_header_top img{
+  width: 100px;
+  margin-left: auto;
+  padding-top: 12px;
+  padding-right: 0.6rem;
+}
+
+/* Header Bottom */
+.ps_header_bottom{
+  text-align: right;
+}
+/* Color */
