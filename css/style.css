@@ -199,6 +199,11 @@ main{
   color: white;
 }
 /* Media Queries */
+@media (min-width: 768px) {
+  .ps_accessory_list img{
+    padding: 2rem 2rem 1rem;
+  }
+}
 @media (min-width: 1200px){
 
   /* Banner */
