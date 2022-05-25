@@ -18,7 +18,6 @@ ul {
 /* ----------------------General---------------------- */
 body{
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
 }
 
 .ps_lens_size{
@@ -39,15 +38,53 @@ body{
   border-bottom: 2px solid #0072cd;
 }
 
+/* Custom White Section Padding and Titles */
+.ps_section_custom_padding{
+  padding: 4rem 0 3rem;
+}
+
+.ps_section_custom_text{
+  padding-top: 2.5rem;
+}
+
+.ps_section_custom_text h5{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #187fd2;
+  font-weight: 600;
+}
+.ps_section_custom_text h2{
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+.ps_section_custom_text p{
+  font-size: 1.4rem;
+  color: #727272;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.ps_section_custom_text button{
+  margin-top: 1.2rem;
+}
+
+.ps_section_custom_text h3{
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
 /* ----------------------HEADER---------------------- */
 header{
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
   z-index: 50;
   font-family: Helvetica, arial, sans-serif;
   font-weight: 600;
+  overflow-x: hidden;
 }
 
 /* HEADER TOP */
@@ -89,14 +126,17 @@ header{
 /* ----------------------MAIN---------------------- */
 main{
   padding-top: 119px;
+  overflow-x: hidden;
 }
 
 /* BANNER */
 .ps_banner{ 
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  top: 0;
+  left: 0;
 }
 
 /* Banner Img */
@@ -116,7 +156,6 @@ main{
   bottom: 60px;
   color: white;
   width: 95%;
-  
 }
 
 /* Banner Img */
@@ -157,32 +196,6 @@ main{
   padding: 0.2rem;
 }
 
-/* Buy The New Console */
-.ps_buy_new_console{
-  padding: 4rem 0 3rem;
-}
-
-.ps_buy_new_console_title{
-  padding: 2rem 0 3rem;
-}
-.ps_buy_new_console_title h5{
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: #187fd2;
-  font-weight: 600;
-}
-.ps_buy_new_console_title h3{
-  font-size: 2.5rem;
-  padding-bottom: 1.8rem;
-}
-.ps_buy_new_console_title p{
-  font-size: 1.4rem;
-  color: #727272;
-}
-.ps_buy_new_console_title button{
-  margin-top: 1.2rem;
-}
-
 /* PS New Exit */
 .ps_new_exit{
   padding: 2rem 0.6rem;
@@ -208,6 +221,16 @@ main{
 
 .ps_new_exit_title p{
   font-size: 1.7rem;
+}
+
+/* Explore ps4 */
+.ps_explore_ps4 span{
+  font-size: 1.3rem;
+  vertical-align: super;
+}
+
+.ps_explore_ps4 a{
+  margin: 1.4rem 0;
 }
 
 /* Color e Btn Color */
@@ -245,5 +268,4 @@ main{
   .ps_takestwo_banner .ps_text_banner img{
     max-width: 50%;
   }
-
  }
