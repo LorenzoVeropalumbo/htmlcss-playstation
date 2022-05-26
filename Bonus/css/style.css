@@ -22,6 +22,7 @@ ul {
 
 .nav-link{
   font-size: 0.9rem;
+  display: inline-block;
 }
 /* ----------------------General---------------------- */
 body{
@@ -38,11 +39,13 @@ body{
   margin-right: 0.6rem;
   padding: 0.8rem 0;
   content: url(../img/chevron-down-solid.svg);
-
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .ps_chevorn_size:hover{
   content: url(../img/chevron-down-solid-hover.svg);
+  transform: rotate(180deg);
 }
 
 .ps_opacity_filter{
@@ -119,6 +122,20 @@ body{
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(0 0 0 / 100%);
+}
+
+/* Animation */
+.ps_animantion_up:hover{
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+  0%   {left:0px; bottom: 0px;}
+  50%  {left:0px; bottom: 20px;}
+  100% {left:0px; bottom:0px;}
 }
 
 /* ----------------------HEADER---------------------- */
@@ -341,6 +358,7 @@ footer ul{
 .ps_btn_darkgrey{
   background-color: #363636;
   color: white;
+  margin-left: 0.3rem;
 }
 
 .ps_btn_darkgrey:hover{
