@@ -44,7 +44,7 @@ body{
 }
 
 .ps_chevorn_size:hover{
-  content: url(../img/chevron-down-solid-hover.svg);
+  content: url(../img/chevron-down-solid.svg);
   transform: rotate(180deg);
 }
 
@@ -453,4 +453,14 @@ footer ul{
       position: absolute;
       top: 100%;
   }
+}
+
+.ps_button_border{
+  padding: 2px;
+}
+.ps_button_border:hover{
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 2px;
+  transform: scale(0.95);
 }
