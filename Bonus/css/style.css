@@ -49,6 +49,11 @@ body{
   opacity: 0.5;
 }
 
+.ps_opacity_filter:hover{
+  opacity: 1;
+  border-bottom: 2px solid #0072cd;
+}
+
 .ps_underline{
   border-bottom: 2px solid #0072cd;
 }
@@ -346,6 +351,7 @@ footer ul{
 .ps_btn_red{
   background-color: #cd3d10;
   color: white;
+  
 }
 
 .ps_btn_red:hover{
