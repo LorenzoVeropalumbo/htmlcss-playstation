@@ -455,8 +455,13 @@ footer ul{
   }
 }
 
+.vvvv *{
+  vertical-align: middle;
+}
+
 .ps_button_border{
   padding: 2px;
+  border: 2px solid white;
 }
 .ps_button_border:hover{
   border: 2px solid red;
