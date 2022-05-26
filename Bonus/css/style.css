@@ -19,6 +19,10 @@ ul {
   outline: 0;
   box-shadow: none;
 }
+
+.nav-link{
+  font-size: 0.9rem;
+}
 /* ----------------------General---------------------- */
 body{
   font-family: Arial, sans-serif;
@@ -31,7 +35,14 @@ body{
 
 .ps_chevorn_size{
   width: 12px;
-  margin-right: 1.2rem;
+  margin-right: 0.6rem;
+  padding: 0.8rem 0;
+  content: url(../img/chevron-down-solid.svg);
+
+}
+
+.ps_chevorn_size:hover{
+  content: url(../img/chevron-down-solid-hover.svg);
 }
 
 .ps_opacity_filter{
@@ -42,7 +53,7 @@ body{
   border-bottom: 2px solid #0072cd;
 }
 
-/* Custom White Section Padding and Titles */
+/* Section Padding and Titles */
 .ps_section_custom_padding{
   padding: 4rem 0 3rem;
 }
@@ -101,6 +112,10 @@ body{
   font-weight: 600;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0 / 100%);
+}
+
 /* ----------------------HEADER---------------------- */
 header{
   position: fixed;
@@ -128,27 +143,36 @@ header{
 }
 
 /* HEADER BOTTOM */
-.ps_header_bottom{
-  background-color: white;
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
 }
 
-/* Menu left */
-.ps_card_menu-left img{
-  width: 60px;
-}
-.ps_card_menu-left{
-  padding: 0.6rem 0;
-}
-/* Menu right */
-.ps_card_menu-right li{
-  margin: 0 5px;
-  font-size: 0.8rem;
+/* HEADER BOTTOM IMG PS */
+.ps_logo_header{
+  width: 50px;
 }
 
-.ps_card_menu-left li{
-  margin-left: 5px;
-  font-size: 0.8rem;
+.navbar-expand-lg .navbar-nav .play-menu {
+  display: flex;
+  justify-content: center;
 }
+
+.navbar-expand-lg .navbar-nav .play-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+/* HEADER BOTTOM LINKS */
+.navbar-expand-lg .navbar-nav .bottom-play-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 /* ----------------------MAIN---------------------- */
 main{
   padding-top: 119px;
@@ -307,6 +331,7 @@ footer ul{
 .ps_sony_brand a{
   color: white;
 }
+
 /* Color e Btn Color */
 .ps_btn_darkgrey{
   background-color: #363636;
@@ -364,6 +389,7 @@ footer ul{
 .ps_color_white{
   color: white;
 }
+
 /* Media Queries */
 @media (min-width: 768px) {
   .ps_accessory_list img{
@@ -378,6 +404,7 @@ footer ul{
     margin-bottom: 1rem;
   }
 }
+
 @media (min-width: 1200px){
 
   /* Banner */
@@ -397,3 +424,10 @@ footer ul{
     width: 50%;
   }
  }
+
+ @media screen and (max-width: 768px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+      top: 100%;
+  }
+}
