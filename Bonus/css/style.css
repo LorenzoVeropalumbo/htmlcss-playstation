@@ -29,6 +29,10 @@ body{
   font-family: Arial, sans-serif;
 }
 
+.ps_header_alignment *{
+  vertical-align: text-top;
+}
+
 .ps_lens_size{
   width: 30px;
   margin-left: 1.3rem;
@@ -358,24 +362,30 @@ footer ul{
 .ps_btn_darkgrey{
   background-color: #363636;
   color: white;
+  margin-right: 0.2rem;
 }
 
 .ps_btn_darkgrey:hover{
   background-color: #363636;
   color: white;
+  padding: 0.45rem 0.85rem;
+  outline: 2px solid #363636;
+  outline-offset: 3px;
+  
 }
 
 .ps_btn_red{
   background-color: #cd3d10;
   color: white;
-  
 }
 
 .ps_btn_red:hover{
   background-color: #cd3d10;
   color: white;
+  padding: 1rem 2rem;
+  outline: 2px solid #cd3d10;
+  outline-offset: 5px;
 }
-
 .ps_btn_dark_blue{
   background-color: #2c64e6;
   color: white;
@@ -384,6 +394,9 @@ footer ul{
 .ps_btn_dark_blue:hover{
   background-color: #2c64e6;
   color: white;
+  padding: 0.45rem 0.85rem;
+  outline: 2px solid #2c64e6;
+  outline-offset: 5px;
 }
 
 .ps_btn_dark_white{
@@ -394,11 +407,22 @@ footer ul{
 .ps_btn_dark_white:hover{
   color: #2c64e6;
   background-color: #d9dadc;
+  padding: 0.45rem 0.85rem;
+  outline: 2px solid #d9dadc;
+  outline-offset: 5px;
 }
 
 .ps_btn_white{
   color: black;
   background-color: white;
+}
+
+.ps_btn_white:hover{
+  color: black;
+  background-color: white;
+  padding: 0.45rem 0.85rem;
+  outline: 2px solid white;
+  outline-offset: 5px;
 }
 
 .ps_bkg_sand{
@@ -412,6 +436,8 @@ footer ul{
 .ps_color_white{
   color: white;
 }
+
+/* Buttons Border Color */
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -450,22 +476,7 @@ footer ul{
 
  @media screen and (max-width: 768px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
-      position: absolute;
-      top: 100%;
+    position: absolute;
+    top: 100%;
   }
-}
-
-.vvvv *{
-  vertical-align: middle;
-}
-
-.ps_button_border{
-  padding: 2px;
-  border: 2px solid white;
-}
-.ps_button_border:hover{
-  border: 2px solid red;
-  border-radius: 30px;
-  padding: 2px;
-  transform: scale(0.95);
 }
